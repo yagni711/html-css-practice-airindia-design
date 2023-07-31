@@ -1,0 +1,401 @@
+.heading{
+	text-align: center;
+	position: relative;
+	bottom:250px;
+	left: 200px;
+}
+.card-main{
+/*	border:1px solid black;*/
+	margin: 0 auto;
+    width: 100%;
+    height:500px;
+    max-width: 1232px!important;
+    padding: 8px 24px 24px;
+    background: #fff!important;
+    position: relative;
+    bottom:220px;
+}
+.card-main div{
+	display: inline-block;
+	border:1px solid black;
+	height:458px;
+	width:340px;
+	margin: 0px 20px;
+	border-radius: 0px !important;
+}
+.hovertext{
+	display:table-row;
+	color: white;
+	right:5px;
+	border: none !important;
+	position: relative;
+	bottom:650px;
+	z-index: 12;
+}
+.hovertext div:hover{
+   background: #df1737 0 0 no-repeat padding-box;
+   border: 1px solid #df1737 !important;
+   cursor: pointer;
+   transition: all .4s,all .4s ease;
+}
+.overlay{
+	position: relative;
+	bottom:457px;
+	right: 20px;
+	background: linear-gradient(0deg,#000 10%,transparent);
+}
+.card1{
+	display: inline-block;
+/*	border:1px solid black;*/
+	height:458px;
+	width:340px;
+	margin: 0px 20px;
+	position: relative;
+	top:1px;
+	border-radius: 0px !important;
+}
+.card2{
+	display: inline-block;
+/*	border:1px solid black;*/
+	height:458px;
+	width:340px;
+	margin: 0px 20px;
+	position: relative;
+	top:1px;
+	border-radius: 0px !important;
+}
+.hovertext1{
+	display:table-row;
+	color: white;
+	right:30px;
+	border: none !important;
+	position: relative;
+	left:-3px;
+	bottom:650px;
+	z-index: 12;
+}
+.hovertext1 div:hover{
+   background: #df1737 0 0 no-repeat padding-box;
+   border: 1px solid #df1737 !important;
+   cursor: pointer;
+   transition: all .4s,all .4s ease;
+}
+.overlay1{
+	position: relative;
+    bottom:457px;
+	right: 20px;
+	background: linear-gradient(0deg,#000 10%,transparent);
+}
+.firstpera{
+	font-size: 19px;
+}
+.second_heading{
+	text-align: center;
+	position: relative;
+	bottom:190px;
+	left:185px;
+}
+.arrow_left{
+	border: none !important;
+	position: relative;
+	bottom:750px;
+	right:30px;
+	font-size:50px;
+	color: gray;
+}
+.arrow_left:hover{
+	color: black;
+}
+.arrow_right{
+	border: none !important;
+	position: relative;
+	bottom:842px;
+	left:1170px;
+	font-size:50px;
+	color: gray;
+}
+.arrow_right:hover{
+	color: black;
+}
+.second{
+	position: relative;
+    left:70px;
+	bottom:180px;
+/*	border: 1px solid black;*/
+	width:1230px;
+	height:450px;
+	display: inline-block;
+}
+.first_img{
+  width:606px;
+  height: 436px;
+/*  border: 1px solid black;*/
+}
+.second_img
+{
+  position: relative;
+  bottom:436px;
+  left:625px;
+}
+.third_img
+{
+  position: relative;
+  bottom:746px;
+  left:625px;
+}
+.second_overlay{
+	position: relative;
+    bottom:457px;
+	height:457px;
+	background: linear-gradient(0deg,#000 10%,transparent);
+}
+.second_overlay1{
+	position: relative;
+    bottom:157px;
+	height:157px;
+	width:604px;
+	background: linear-gradient(0deg,#000 10%,transparent);
+}
+.second_overlay2{
+	position: relative;
+    bottom:157px;
+	height:157px;
+	width:604px;
+	background: linear-gradient(0deg,#000 10%,transparent);
+}
+.second_hovertext{
+	margin-top:60px;
+	display:table-row;
+	color: white;
+	left:105px;
+	font-size: 18px;
+	border: none !important;
+	position: relative;
+	bottom:650px;
+	z-index: 14;
+}
+.second_hovertext div:hover{
+   background: #df1737 0 0 no-repeat padding-box;
+   border: 1px solid #df1737 !important;
+   cursor: pointer;
+   transition: all .4s,all .4s ease;
+}
+.second_hovertext1{
+	margin-top:60px;
+	display:table-row;
+	color: white;
+	left:70px;
+	font-size: 18px;
+	border: none !important;
+	position: relative;
+	bottom:350px;
+	z-index: 15;
+}
+.second_hovertext1 div:hover{
+   background: #df1737 0 0 no-repeat padding-box;
+   border: 1px solid #df1737 !important;
+   cursor: pointer;
+   transition: all .4s,all .4s ease;
+}
+.second_hovertext2{
+	margin-top:80px;
+	display:table-row;
+	color: white;
+	left:190px;
+	font-size: 18px;
+	border: none !important;
+	position: relative;
+	bottom:350px;
+	z-index: 15;
+}
+.second_hovertext2 div:hover{
+   background: #df1737 0 0 no-repeat padding-box;
+   border: 1px solid #df1737 !important;
+   cursor: pointer;
+   transition: all .4s,all .4s ease;
+}
+.fly{
+	position: relative;
+	bottom:140px;
+}
+.fly_text{
+	position: relative;
+	left: 620px;
+	color: white;
+    bottom:460px;
+    font-family: Verdana;
+}
+.fix_img{
+	z-index: 998;
+    position: fixed;
+    bottom: 10px;
+    right: 24px;
+    transition: all .4s,all .4s ease;
+    cursor: pointer;
+    border-radius:40%;
+    box-shadow: 0 4px 8px #00000029!important;
+}
+.fix_img:hover{
+	bottom:20px;
+}
+.first_footer{
+/*	border: 1px solid black;*/
+	position: relative;
+	bottom:527px;
+	height:200px;
+	width:1400px;
+}
+.first_footer li{
+	display: inline-block;
+	list-style-type: none;
+	padding:50px 80px;
+	cursor: pointer;
+}
+
+.dot_footer{
+	position: relative;
+/*	top:40px;*/
+/*	left:650px;*/
+  height:100px;
+  width:100px;
+  background-color:black;
+  color: white;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+}
+.dot_footer:hover{
+	transition: all .4s,all .4s ease;
+	 background-color:#c02d32 !important;
+}
+.footer{
+	position:relative;
+	bottom:1200px;
+/*	border: 1px solid black;*/
+	width: 100%;
+}
+.footer_text{
+	position: relative;
+	top:700px;
+	height:700px;
+	width:1389px;
+/*	border: 1px solid black;*/
+}
+.footer_text div{
+	display: inline-block;
+}
+.footer_text li{
+	list-style-type: none;
+}
+.text4{
+	position: relative;
+	top:50px;
+	left:450px;
+	font-size:14px;
+}
+.text3{
+	position: relative;
+   top:10px;
+	left:350px;
+	font-size:14px;
+}
+.text2{
+	position: relative;
+   top:10px;
+	left:250px;
+	font-size:14px;
+}
+.text1{
+	position: relative;
+   top:50px;
+	left:150px;
+	font-size:14px;
+}
+.text5{
+	position: relative;
+   top:180px;
+	right:550px;
+	font-size:14px;
+}
+.text6{
+	position: relative;
+   top:220px;
+	right:450px;
+	font-size:14px;
+}
+.text7{
+	position: relative;
+   top:180px;
+	right:370px;
+	font-size:14px;
+}
+.text8{
+	position: relative;
+   top:70px;
+	left:940px;
+	font-size:14px;
+}
+.social{
+	position: relative;
+	top:250px;
+	right: 170px;
+	height:110px;
+	width:1028px;
+	border-top: 1px dashed gray;
+	border-bottom: 1px dashed gray;
+}
+.text9{
+	position: relative;
+   top:20px;
+	right:40px;
+	font-size:14px;
+}
+.text10{
+	position: relative;
+   top:20px;
+	left:80px;
+	font-size:14px;
+}
+.text11{
+	position: relative;
+   bottom:2px;
+	left:180px;
+	font-size:14px;
+}
+.text12{
+	position: relative;
+   top:10px;
+	left:280px;
+	font-size:14px;
+}
+.text12 i {
+	padding: 10px;
+}
+.tata{
+	position: relative;
+	top:250px;
+	left:190px;
+	height:110px;
+	width:1028px;
+	border-bottom: 1px dashed gray;
+}
+.tata_img{
+	width: 100px;
+	height: 100px;
+	position: relative;
+	top:25px;
+}
+.airindia{
+	width: 100px;
+	height: 100px;
+	position: relative;
+	top:25px;
+	left:490px;
+}
+.footer_copy{
+	font-size: 13px;
+	color: black;
+	position: relative;
+	top:270px;
+	left: 300px;
+}
